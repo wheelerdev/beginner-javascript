@@ -14,3 +14,8 @@ const myHTML = `
 const myFragment = document.createRange().createContextualFragment(myHTML);
 
 document.body.appendChild(myFragment);
+
+const item = document.querySelector('.item');
+
+item.innerHTML = `<h1>I'm a title look at me</h1>`;
+console.log(item.innerHTML);

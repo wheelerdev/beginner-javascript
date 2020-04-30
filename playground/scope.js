@@ -1,27 +1,26 @@
-// const age = 100;
+const age = 100;
 
-// function go() {
-//   const myAge = 200;
-//   const hair = 'blonde';
-//   console.log(age);
-//   console.log(myAge);
-//   console.log(hair);
-// }
+function go() {
+  const myAge = 200;
+  const hair = 'blonde';
+  console.log(age);
+  console.log(myAge);
+  console.log(hair);
+}
 
-// go();
-/* eslint-disable*/
+go();
 
-// function isCool(name) {
-//   if (name === 'wes') {
-//     var cool = true;
-//   }
-//   console.log(cool);
-//   return cool;
-// }
+function isCool(name) {
+  if (name === 'wes') {
+    var cool = true;
+  }
+  console.log(cool);
+  return cool;
+}
 
-// for(let i = 0; i < 10; i++) {
-//   console.log(i);
-// }
+for(let i = 0; i < 10; i++) {
+  console.log(i);
+}
 
 
 const dog = 'snickers';

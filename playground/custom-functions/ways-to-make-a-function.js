@@ -69,10 +69,46 @@ function handleClick() {
 }
 
 button.addEventListener('click', function() {
-  console.log('NIce Job!!!');
+  console.log('Nice Job Fella!!!');
 });
 
 // Timer Callback
 setTimeout(() => {
   console.log('DONE! Time to eat!');
-}, 1000);
+}, 10000);
+
+let name = prompt('What doctor do you need to get a hold of?')
+
+function doctorize(name) {
+  return `Dr. ${name}`;
+}
+
+function yell(name) {
+  return `Paging ${name.toUpperCase()}, please come to the front desk.`;
+}
+
+const yellDoc = yell(doctorize(name))
+
+function callTheDoc() {
+  console.log(yellDoc)
+}
+
+
+const buttonDoc = document.querySelector('.clickMeDoc');
+
+buttonDoc.addEventListener('click', function() {
+  console.log(callTheDoc());
+});
+// const hiDoc = doctorize('Scott')
+
+// alert(yellDoc)
+
+
+// const inchToCM = inches => inches * 2.54;
+
+// function add(a, b = 3) {
+//   const total = a + b;
+//   return total;
+// }
+
+// const add = (a, b = 3) => (a + b); 

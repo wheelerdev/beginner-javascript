@@ -89,6 +89,18 @@
 
     const buns = ['egg', 'wonder', 'brioche'];
 
+    // console.log(buns.join(' or '));
+
+    const shoppingList = 'hot dogs, hamburgers, sausages, corn';
+
+    // const shoppingArray = shoppingList.split(',');
+
+    // const lastItem = shoppingArray.pop();
+
+
+    // console.log(lastItem);
+    // console.log(shoppingArray.length - 1);
+
     const meats = {
       beyond: 10,
       beef: 5,
@@ -103,6 +115,15 @@
     };
 
     const orderTotals = [342, 1002, 523, 34, 634, 854, 1644, 2222];
+
+    function numberSort(a, b) {
+      return a - b;
+    }
+
+    console.log(orderTotals.sort(numberSort));
+
+    const pricesSorted = prices.sort(numberSort());
+    console.log(pricesSorted);
 
     const feedback = [
       { comment: 'Love the burgs', rating: 4 },

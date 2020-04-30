@@ -86,3 +86,8 @@ console.log(ofAge);
 
 age = 100;
 let age2 = 100;
+
+const a = 20;
+const b = 30;
+
+let age3 = 76.6;
